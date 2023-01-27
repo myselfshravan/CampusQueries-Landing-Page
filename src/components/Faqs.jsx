@@ -6,53 +6,53 @@ import backgroundImage from "@/images/background-faqs.jpg";
 const faqs = [
   [
     {
-      question: "Does TaxPal handle VAT?",
+      question: "What is Campus Queries",
       answer:
-        "Well no, but if you move your company offshore you can probably ignore it.",
+        "Campus Queries is a platform that allows students to directly address their queries to the concerned authorities.",
     },
     {
-      question: "Can I pay for my subscription via purchase order?",
-      answer: "Absolutely, we are happy to take your money in all forms.",
+      question: " What does Campus Queries do",
+      answer: "It takes the complaints given by the student and forwards it to the concerned authorities and makes sure that it would be solved.",
     },
     {
-      question: "How do I apply for a job at TaxPal?",
+      question: "What does the lost and found feature do?",
       answer:
-        "We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.",
+        "It allows the students to post the lost items and the found items so that the owner can get it back.",
     },
   ],
   [
     {
-      question: "What was that testimonial about tax fraud all about?",
+      question: "How are the tems found verified to the owner?",
       answer:
-        "TaxPal is just a software application, ultimately your books are your responsibility.",
+        "the images and description of the item uploaded by the finder is matched against the images and description of the item uploaded by the searcher and then it's compared to find the owner of the product.",
     },
     {
       question:
-        "TaxPal sounds horrible but why do I still feel compelled to purchase?",
+        "How do I get notified when my item is found?",
       answer:
-        "This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.",
+        "Once our algorithm finds the owner of the item, we will notify you via email.",
     },
     {
       question:
-        "I found other companies called TaxPal, are you sure you can use this name?",
+        "What do I do if the finder is not responding and not returning my item",
       answer:
-        "Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.",
+        "You can contact our support team and we will try to help you out.",
     },
   ],
   [
     {
-      question: "How do you generate reports?",
+      question: "How do I recieve my lost item?",
       answer:
-        "You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.",
+        "Once the owner of the item is found, we will notify you via email and you can contact the finder to recieve your item at a general location.",
     },
     {
-      question: "Can we expect more inventory features?",
-      answer: "In life it’s really better to never expect anything at all.",
+      question: "Can I find food items?",
+      answer: "If the food item is not perishable, then yes you can.",
     },
     {
-      question: "I lost my password, how do I get into my account?",
+      question: "How do I change my password?",
       answer:
-        "Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.",
+        "Request a password reset link from college tech department and follow the instructions.",
     },
   ],
 ];
