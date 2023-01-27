@@ -9,6 +9,17 @@ import { Pricing } from "@/components/Pricing";
 import { PrimaryFeatures } from "@/components/PrimaryFeatures";
 import { SecondaryFeatures } from "@/components/SecondaryFeatures";
 import { Testimonials } from "@/components/Testimonials";
+if (typeof window !== "undefined") {
+  console.log("You are on the browser");
+  // 👉️ can use localStorage here
+
+  localStorage.setItem("name", "Tom");
+
+  console.log(localStorage.getItem("name")); // 👉️ "Tom"
+} else {
+  console.log("You are on the server");
+  // 👉️ can't use localStorage
+}
 
 export default function Home() {
   return (
