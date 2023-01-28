@@ -1,8 +1,8 @@
-import Image from 'next/future/image'
+import Image from "next/future/image";
 
-import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-call-to-action.jpg'
+import { Button } from "@/components/Button";
+import { Container } from "@/components/Container";
+import backgroundImage from "@/images/background-call-to-action.jpg";
 
 export function CallToAction() {
   return (
@@ -20,22 +20,28 @@ export function CallToAction() {
       />
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center ">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl dark:text-black">
+          <h2 className="font-display text-3xl tracking-tight text-white dark:text-black sm:text-4xl">
             Lost and Found
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white dark:text-black">
-          Connecting you to your lost belongings on campus
+            Connecting you to your lost belongings on campus
           </p>
-          <Button href="/register" color="white" className="mt-10 dark:bg-slate-900 dark:text-white/80">
+          <Button
+            href="https://campus-queries.vercel.app/#/lost"
+            color="white"
+            className="mt-10 dark:bg-slate-900 dark:text-white/80"
+          >
             Report a lost item
           </Button>
-         
-            <Button className=" dark:text-white/80 ml-5" href="/register">
-          Report an item found
-        </Button>
-          
+
+          <Button
+            className=" ml-5 dark:text-white/80"
+            href="https://campus-queries.vercel.app/#/found"
+          >
+            Report an item found
+          </Button>
         </div>
       </Container>
     </section>
-  )
+  );
 }
