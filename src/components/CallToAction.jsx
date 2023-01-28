@@ -19,18 +19,18 @@ export function CallToAction() {
         unoptimized
       />
       <Container className="relative">
-        <div className="mx-auto max-w-lg text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+        <div className="mx-auto max-w-lg text-center ">
+          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl dark:text-black">
             Lost and Found
           </h2>
-          <p className="mt-4 text-lg tracking-tight text-white">
+          <p className="mt-4 text-lg tracking-tight text-white dark:text-black">
           Connecting you to your lost belongings on campus
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button href="/register" color="white" className="mt-10 dark:bg-slate-900 dark:text-white/80">
             Report a lost item
           </Button>
          
-            <Button className="dark:bg-white dark:text-black" href="/register">
+            <Button className=" dark:text-white/80 ml-5" href="/register">
           Report an item found
         </Button>
           

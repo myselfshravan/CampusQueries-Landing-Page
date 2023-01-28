@@ -87,7 +87,7 @@ function ModeToggle() {
     <button
       type="button"
       aria-label="Toggle dark mode"
-      className="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
+      className="group rounded-full bg-white/-90 px-3 py2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
       onClick={toggleMode}
     >
       <SunIcon className="[@media(prefers-color-scheme:dark)]:stroke-insp-300 [@media(prefers-color-scheme:dark)]:group-hover:stroke-insp-300 h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-sky-50 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50" />
@@ -98,7 +98,7 @@ function ModeToggle() {
 
 function MobileNavLink({ href, children }) {
   return (
-    <Popover.Button as={Link} href={href} className="block w-full p-2">
+    <Popover.Button as={Link} href={href} className="block w-full p-2 ">
       {children}
     </Popover.Button>
   );
@@ -182,8 +182,8 @@ export function Header() {
   
 
   return (
-    <header className=" py-4 dark:bg-slate-900  ">
-      <Container>
+    <header className=" py-4 dark:bg-gray-900  ">
+      <Container className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <Link href="#" aria-label="Home">
@@ -195,7 +195,7 @@ export function Header() {
               />
               {/* <Logo className="h-10 w-auto" /> */}
             </Link>
-            <div className="hidden md:flex md:gap-x-6 ">
+            <div className="hidden md:flex md:gap-x-6  ">
               <NavLink href="#problem">Report Problem</NavLink>
               <NavLink href="#forum">Forum</NavLink>
               <NavLink href="/found">Item Found</NavLink>
