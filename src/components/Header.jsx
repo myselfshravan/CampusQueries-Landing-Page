@@ -163,7 +163,7 @@ function MobileNavigation() {
         >
           <Popover.Panel
             as="div"
-            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
+            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5 dark:text-white dark:bg-slate-800"
           >
             <MobileNavLink href="#problem">Report Problem</MobileNavLink>
             <MobileNavLink href="#forum">Forum</MobileNavLink>
@@ -182,7 +182,7 @@ export function Header() {
   
 
   return (
-    <header className=" py-4 dark:bg-slate-900">
+    <header className=" py-4 dark:bg-slate-900  ">
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
@@ -195,7 +195,7 @@ export function Header() {
               />
               {/* <Logo className="h-10 w-auto" /> */}
             </Link>
-            <div className="hidden md:flex md:gap-x-6">
+            <div className="hidden md:flex md:gap-x-6 ">
               <NavLink href="#problem">Report Problem</NavLink>
               <NavLink href="#forum">Forum</NavLink>
               <NavLink href="/found">Item Found</NavLink>

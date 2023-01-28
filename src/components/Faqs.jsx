@@ -22,7 +22,7 @@ const faqs = [
   ],
   [
     {
-      question: "How are the tems found verified to the owner?",
+      question: "How are the items found verified to the owner?",
       answer:
         "the images and description of the item uploaded by the finder is matched against the images and description of the item uploaded by the searcher and then it's compared to find the owner of the product.",
     },

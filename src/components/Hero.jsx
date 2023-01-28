@@ -16,18 +16,17 @@ export function Hero() {
         Campus Queries
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700 dark:text-white/70">
-        Streamlining the Lost and Found and Complaints Process on College Campus
+      Streamlining the Lost and Found and Complaints Process on College Campus
+      </p>
+      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700 dark:text-white/70">
+      Empowering students, one question at a time.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button className="dark:bg-white dark:text-black" href="/register">
           File a Complaint
         </Button>
-        <Button
-          className="dark:bg-white dark:text-black"
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        >
-          Lost and Found
-        </Button>
+        
+        
       </div>
     </Container>
   );
