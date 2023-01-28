@@ -26,20 +26,20 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white dark:text-black">
             Connecting you to your lost belongings on campus
           </p>
-          <Button
-            href="https://campus-queries.vercel.app/#/lost"
-            color="white"
-            className="mt-10 dark:bg-slate-900 dark:text-white/80"
-          >
-            Report a lost item
-          </Button>
+            <Button
+              href="https://campus-queries.vercel.app/#/lost"
+              color="white"
+              className="mt-10 dark:bg-slate-900 dark:text-white/80"
+            >
+              Report a lost item
+            </Button>
 
-          <Button
-            className=" ml-5 dark:text-white/80"
-            href="https://campus-queries.vercel.app/#/found"
-          >
-            Report an item found
-          </Button>
+            <Button
+              className=" ml-5 mt-3 dark:text-white/80"
+              href="https://campus-queries.vercel.app/#/found"
+            >
+              Report an item found
+            </Button>
         </div>
       </Container>
     </section>
